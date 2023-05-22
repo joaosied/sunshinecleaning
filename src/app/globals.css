@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgColor{
+    background-image: linear-gradient(
+        to left top,
+        #FDA300,
+        #feb731,
+        #fcb839,
+        #f7c15d
+
+      );
+}
+
+.imagePrincipal {
+  height: 564px;
+}
+
+.bgImage {
+  background-image: url(./img/imagePrincipal.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
+}
+
+.bgComercial{
+  border-radius:  60% 40% 68% 32% / 38% 60% 40% 62% ;
+}
+
+.bgResidencial{
+  border-radius:  32% 68% 40% 60% / 60% 32% 68% 40% ;
+}
+
+.bgCarpetes{
+  border-radius:  60% 40% 68% 32% / 38% 60% 40% 62% ;
+}
+
+.bgLimpezas{
+  border-radius:  32% 68% 40% 60% / 60% 32% 68% 40% ;
+}
+
+.bgDepoimentos{
+  background-image: linear-gradient(
+    to left top,
+    #FDA300,
+    #feb731,
+    #fcb839,
+    #f7c15d
+
+  );
+}
+
+.imgAna{
+  background-image: url(./img/ana.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imgJoao{
+  background-image: url(./img/joao.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imgMaria{
+  background-image: url(./img/maria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bgForm{
+  background-image: linear-gradient(
+    to left top,
+    #FDA300,
+    #feb731,
+    #fcb839,
+    #f7c15d
+
+  );
+}
+
+.logoform {
+  background-image: url(./img/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logoCompleta{
+  background-image: url(./img/logocompleta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  background-image: url(./img/svg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

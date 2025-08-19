@@ -1,106 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.bgColor{
-    background-image: linear-gradient(
-        to left top,
-        #FDA300,
-        #feb731,
-        #fcb839,
-        #f7c15d
-
-      );
+@layer base {
+  html, body{
+    @apply font-sans;
+  }
 }
 
-.imagePrincipal {
-  height: 564px;
+.bgColor {
+  background-image: linear-gradient(
+    to left top,
+    #fda300,
+    #feb731,
+    #fcb839,
+    #f7c15d
+  );
 }
 
 .bgImage {
-  background-image: url(./img/imagePrincipal.avif);
+  background-image: url('/img/imagePrincipal.avif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
 }
 
-.bgComercial{
-  border-radius:  60% 40% 68% 32% / 38% 60% 40% 62% ;
+.bgComercial {
+  border-radius: 60% 40% 68% 32% / 38% 60% 40% 62%;
 }
 
-.bgResidencial{
-  border-radius:  32% 68% 40% 60% / 60% 32% 68% 40% ;
+.bgResidencial {
+  border-radius: 32% 68% 40% 60% / 60% 32% 68% 40%;
 }
 
-.bgCarpetes{
-  border-radius:  60% 40% 68% 32% / 38% 60% 40% 62% ;
+.bgCarpetes {
+  border-radius: 60% 40% 68% 32% / 38% 60% 40% 62%;
 }
 
-.bgLimpezas{
-  border-radius:  32% 68% 40% 60% / 60% 32% 68% 40% ;
+.bgLimpezas {
+  border-radius: 32% 68% 40% 60% / 60% 32% 68% 40%;
 }
 
-.bgDepoimentos{
+.bgDepoimentos {
   background-image: linear-gradient(
     to left top,
-    #FDA300,
+    #fda300,
     #feb731,
     #fcb839,
     #f7c15d
-
   );
 }
 
-.imgAna{
-  background-image: url(./img/ana.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.imgJoao{
-  background-image: url(./img/joao.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.imgMaria{
-  background-image: url(./img/maria.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.bgForm{
+.bgForm {
   background-image: linear-gradient(
     to left top,
-    #FDA300,
+    #fda300,
     #feb731,
     #fcb839,
     #f7c15d
-
   );
 }
 
 .logoform {
-  background-image: url(./img/logo.png);
+  background-image: url('/logo.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.logoCompleta{
-  background-image: url(./img/logocompleta.png);
+.logoCompleta {
+  background-image: url('/logocompleta.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 footer {
-  background-image: url(./img/svg.png);
+  background-image: url('/img/svg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
+
+#logoNav:hover{
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+
